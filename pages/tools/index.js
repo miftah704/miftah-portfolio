@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Image from 'next/image'
 
 import { Tab } from "@headlessui/react";
@@ -8,8 +7,7 @@ import SEO from "../../components/Header/Seo";
 import Layout from "../../components/Layout";
 import SecondPage from "../../components/Content/SecondPage";
 import SubTitlePage from "../../components/Content/SubTitlePage";
-import BannerSecond from "../../components/Content/BannerSecond";
-import toolData from "./toolData";
+import toolData from '../api/toolData';
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ')
@@ -105,7 +103,7 @@ function index() {
 												<div className="absolute -bottom-2 text-center bg-indigo-200 py-px  md:px-2 w-full tracking-wide rounded-md shadow invisible md:visible border-4 border-indigo-500">
 													<h4 className="text-base text-slate-600">{post.title}</h4>
 												</div>
-												<Image src={`/${post.image}`} width={post.width} height={post.height} />
+												<Image src={`/${post.image}`} width={post.width} height={post.height} alt="image-feature" />
 											</div>
 											))}
 										</div>

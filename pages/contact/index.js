@@ -22,6 +22,8 @@ function Contact(props) {
 					imageFeature="/feature-contact.png"
 					wImage={"500"}
 					hImage={"500"}
+					subTitlePage={"Contact"}
+					subTitleSecondPage={"Get in Touch"}
 				>
 					
 				<p>If there is a way your business can benefit from my experience as a developer? Please share your thoughts in email or by phone and I will be in touch.</p>

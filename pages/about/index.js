@@ -5,7 +5,7 @@ import CurriculumVitaeContact from "../../components/Content/Contact/CurriculumV
 import BannerDescription from "../../components/Content/About/BannerDescription";
 import SubTitlePage from "../../components/Content/SubTitlePage";
 import SecondPage from "../../components/Content/SecondPage";
-import cvData from "./cvData";
+import cvData from "../api/cvData";
 
 function index() {
 	
@@ -32,6 +32,8 @@ function index() {
 					imageFeature={bannerVar.imageFeatureVar}
 					wImage={bannerVar.wImageVar}
 					hImage={bannerVar.hImageVar}
+					subTitlePage={"About me"}
+					subTitleSecondPage={"Let me introduce myself"}
 				>
 
 					<BannerDescription />

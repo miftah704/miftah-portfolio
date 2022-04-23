@@ -21,7 +21,7 @@ function SEO(props) {
 					"Hi! 👋🏼 My name is Miftah. I'm a enthusiast of codes whenever and wherever, curiosity and the urge of being good at something is always a motivation."
 				}
 			/>
-			<link rel="icon" href="/favicon.ico" />
+			<link rel="icon" href="/logo-miftah.jpg" />
 
 		</Head>
 	);

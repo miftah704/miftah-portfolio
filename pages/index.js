@@ -1,12 +1,12 @@
-import BannerPrimary from '../components/Content/BannerPrimary'
-import ItemCardProject from '../components/Content/Project/ItemProject'
-import ItemCardTool from '../components/Content/Project/ItemTool'
-import CardProject from '../components/Content/Project/Project'
-import CardTool from '../components/Content/Project/Tool'
-import SecondPage from '../components/Content/SecondPage'
-import projectData from './projects/projectData'
-import SEO from '../components/Header/Seo'
-import Layout from '../components/Layout'
+import BannerPrimary from "../components/Content/BannerPrimary";
+import ItemCardProject from "../components/Content/Project/ItemProject";
+import ItemCardTool from "../components/Content/Project/ItemTool";
+import CardProject from "../components/Content/Project/Project";
+import CardTool from "../components/Content/Project/Tool";
+import SecondPage from "../components/Content/SecondPage";
+import SEO from "../components/Header/Seo";
+import Layout from "../components/Layout";
+import projectData from "./api/projectData";
 
 export default function Home() {
 

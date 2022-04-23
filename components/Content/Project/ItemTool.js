@@ -20,6 +20,7 @@ function ItemCardTool(props) {
 							src={imageFeature}
 							width={imageWidth}
 							height={imageHeight}
+							alt="image-feature"
 						/>
 
 					</div>

@@ -8,7 +8,7 @@ import SecondPage from '../../components/Content/SecondPage';
 import SubTitlePage from '../../components/Content/SubTitlePage';
 import SEO from '../../components/Header/Seo';
 import Layout from '../../components/Layout';
-import projectData from './projectData';
+import projectData from '../api/projectData';
 
 
 function index(props) {

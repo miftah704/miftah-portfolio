@@ -10,16 +10,13 @@ function BannerSecond(props) {
 		imageFeature,
 		wImage,
 		hImage,
+		subTitlePage,
+		subTitleSecondPage,
 	} = props;
 
 	return (
 
-		<div className="
-			bg-radial-at-t
-			from-indigo-900/40
-			via-slate-900/50
-			to-slate-900
-		">
+		<div className={`${subTitlePage ? "" : "lg:h-screen"} bg-radial-at-t from-indigo-900/40 via-slate-900/50 to-slate-900`}>
 			<main className="
 				mx-auto
 				max-w-7xl
@@ -27,37 +24,45 @@ function BannerSecond(props) {
 				h-full
 			">
 				
-				<SubTitlePage
-					variant="
-						text-xl
-						font-semibold
-						text-indigo-300
-						underline
-						md:underline-offset-8
-						decoration-indigo-500
-						decoration-4
-						text-center
-						md:pt-44 pt-36
-						uppercase
-						antialiased
-						tracking-wide
-						md:mb-10 mb-3
-					"
-					subTitle="About me"
-				/>
+				{
+					subTitlePage && (
+						<>
+							<SubTitlePage
+								variant="
+									text-xl
+									font-semibold
+									text-indigo-300
+									underline
+									md:underline-offset-8
+									decoration-indigo-500
+									decoration-4
+									text-center
+									md:pt-44 pt-36
+									uppercase
+									antialiased
+									tracking-wide
+									md:mb-10 mb-3
+								"
+								subTitle={subTitlePage}
+							/>
 
-				<SubTitlePage
-					variant="
-						md:text-4xl
-						text-3xl
-						font-semibold
-						text-slate-200
-						text-center
-						antialiased
-						tracking-wide
-					"
-					subTitle="Let me introduce myself"
-				/>
+							{ subTitleSecondPage && 
+								<SubTitlePage
+									variant="
+										md:text-4xl
+										text-3xl
+										font-semibold
+										text-slate-200
+										text-center
+										antialiased
+										tracking-wide
+									"
+									subTitle={subTitleSecondPage}
+								/>
+							}
+						</>
+					)
+				}
 
 				<div className="
 					flex md:flex-row
