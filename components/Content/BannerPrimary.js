@@ -21,7 +21,7 @@ function BannerPrimary(props) {
 			<main className="mx-auto max-w-7xl px-4">
 				<div className="text-center">
 					<h1 className="mt-0 lg:mt-7 text-4xl text-gray-900 dark:text-gray-100 sm:text-5xl md:text-6xl xl:text-8xl 2xl:text-9xl">
-						<span className="block font-black tracking-tighter text-gradient bg-gradient-to-b from-indigo-700 via-indigo-200 to-indigo-700 xl:inline">Fullstack Web Developer</span>
+						<span className="block font-black tracking-tighter text-gradient bg-gradient-to-b from-indigo-700 via-indigo-200 to-indigo-700 xl:inline">Software Engineer</span>
 					</h1>
 					<p className="mt-3 max-w-md mx-auto text-base text-slate-400 sm:text-lg md:mt-16 md:text-xl xl:text-2xl 2xl:text-3xl md:max-w-3xl">
 						Hi! 👋🏼 My name is Miftah. I'm a enthusiast of codes whenever and wherever, curiosity and the urge of being good at something is always a motivation.

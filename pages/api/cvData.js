@@ -11,7 +11,7 @@ function cvData() {
 		
 		{
 			untilDateVar: "DECEMBER 2019 - NOW.",
-			positionVar: "Fullstack Web Developer",
+			positionVar: "Software Engineer",
 			linkDetailVar: "https://sunplan-co.jp/",
 			ariaLabelLinkVar: "website",
 			companyNameVar: "株式会社 サンプラン",
@@ -24,7 +24,7 @@ function cvData() {
 		},
 		{
 			untilDateVar: "JANUARY - JUNE 2019.",
-			positionVar: "Fullstack Developer",
+			positionVar: "Software Engineer",
 			linkDetailVar: "https://odesa.id/",
 			ariaLabelLinkVar: "website",
 			companyNameVar: "Odesa Indonesia",
@@ -78,11 +78,11 @@ function cvData() {
 	
 	const seoVar = {
 		seoTitleVar: "About Me",
-		seoDescriptionVar: "Hi, I am a fullstack web developer. Since I was 18 years old I love coding and making it as both a passion and a hobby. During my career I have had the opportunity to open and develop My skills are both hard skills and soft skills. I have the ability to work individually or in a team."
+		seoDescriptionVar: "Hi, I am a Software Engineer. Since I was 18 years old I love coding and making it as both a passion and a hobby. During my career I have had the opportunity to open and develop My skills are both hard skills and soft skills. I have the ability to work individually or in a team."
 	}
 	const bannerVar = {
 		titlePrimaryVar: "Miftah Shidiq",
-		titleForeignVar: "Fullstack Web Developer",
+		titleForeignVar: "Software Engineer",
 		imageFeatureVar: "/feature-about.png",
 		wImageVar: "500",
 		hImageVar: "500",

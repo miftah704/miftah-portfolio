@@ -23,7 +23,7 @@ function CurriculumVitaeContact(props) {
 			block
 			relative
 			z-0
-			my-5
+			my-4
 			p-6
 			w-full
 			md:w-[27.1rem]
@@ -33,8 +33,10 @@ function CurriculumVitaeContact(props) {
 			<div className={`
 				${bottomVariant}
 				absolute
-				left-0
-				w-full
+				inset-x-0
+				sm:px-0
+				px-10
+				md:w-full
 				h-full
 				z-[-1]
 			`}>
