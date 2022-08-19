@@ -30,8 +30,9 @@ export default function Home() {
 				<CardProject
 				title={"Latest Work"}
 				variant="bg-slate-900/70"
+				underline={true}
 				>
-					{ projects.map( (project,idx) => (
+					{ projects.slice(0,2).map( (project,idx) => (
 
 						<ItemCardProject
 							key={idx}

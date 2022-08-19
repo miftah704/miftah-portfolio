@@ -4,6 +4,7 @@ function CardProject(props) {
 		title,
 		variant,
 		titlePage,
+		underline,
 		children
 	} = props;
 	
@@ -44,15 +45,18 @@ function CardProject(props) {
 
 					</h4>
 					<h2
-						className="
-							h-15 md:text-4xl text-3xl
+						className={`
+							${underline ?
+								'underline underline-offset-8 decoration-indigo-500 decoration-4' :
+								''
+							}
+							h-15 md:text-4xl
+							text-3xl
 							font-semibold
 							text-slate-100
-							decoration-4
 							text-center
 							mb-16
-							antialiased
-					">
+							antialiased`}>
 
 						{title}
 
