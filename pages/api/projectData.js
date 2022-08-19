@@ -10,6 +10,21 @@ function projectData() {
 			descriptionVar: "Simple and elegant pinned for this project. The website about company profiles in Japan.",
 			siteLinkVar: "https://yuuei-co.jp",
 			titleSiteLinkVar: "View Site",
+			tools: [
+				{
+					id: 1,	
+					imageFeatureVar: "/tailwindcss-logo.svg",
+					imageWidthVar: "40%",
+					imageHeightVar: "40%",
+				},
+				{
+					id: 2,	
+					imageFeatureVar: "/nextjs-logo.svg",
+					imageWidthVar: "40%",
+					imageHeightVar: "40%",
+					bgVariant: "bg-slate-100",
+				},
+			]
 		},
 		{
 			id: 3,
@@ -20,6 +35,21 @@ function projectData() {
 			descriptionVar: "Personal Website and Portfolio.",
 			siteLinkVar: "https://miftahshidiq.com",
 			titleSiteLinkVar: "View Site",
+			tools: [
+				{
+					id: 1,	
+					imageFeatureVar: "/tailwindcss-logo.svg",
+					imageWidthVar: "40%",
+					imageHeightVar: "40%",
+				},
+				{
+					id: 2,	
+					imageFeatureVar: "/nextjs-logo.svg",
+					imageWidthVar: "40%",
+					imageHeightVar: "40%",
+					bgVariant: "bg-slate-100",
+				},
+			]
 		},
 		{
 			id: 2,
@@ -30,6 +60,20 @@ function projectData() {
 			descriptionVar: "Construction and pavement sector as well as heavy vehicle rental, with the site expanding the range of information and make it easier to provide information on vehicles available for rent.",
 			siteLinkVar: "https://sunplan-co.jp",
 			titleSiteLinkVar: "View Site",
+			tools: [
+				{
+					id: 1,	
+					imageFeatureVar: "/bootstrap-logo.svg",
+					imageWidthVar: "40%",
+					imageHeightVar: "40%",
+				},
+				{
+					id: 2,	
+					imageFeatureVar: "/codeigniter-logo.svg",
+					imageWidthVar: "40%",
+					imageHeightVar: "40%",
+				},
+			]
 		},
 		{
 			id: 1,
@@ -40,6 +84,20 @@ function projectData() {
 			descriptionVar: "He said : Transparency, Accuracy, Integration. All of that is my job.",
 			siteLinkVar: "https://my.sunplan-co.jp",
 			titleSiteLinkVar: "View Site",
+			tools: [
+				{
+					id: 1,	
+					imageFeatureVar: "/bootstrap-logo.svg",
+					imageWidthVar: "40%",
+					imageHeightVar: "40%",
+				},
+				{
+					id: 2,	
+					imageFeatureVar: "/codeigniter-logo.svg",
+					imageWidthVar: "40%",
+					imageHeightVar: "40%",
+				},
+			]
 		},
 	]
 

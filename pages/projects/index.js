@@ -53,13 +53,14 @@ function index(props) {
 
 							<CardTool>
 								{
-									tools.map((tool, idx)=>(
+									project.tools.map((tool, idx)=>(
 
 										<ItemCardTool
 											key={idx}
 											imageFeature={tool.imageFeatureVar}
 											imageWidth={tool.imageWidthVar}
 											imageHeight={tool.imageHeightVar}
+											bgVariant={tool.bgVariant}
 										/>
 
 									))

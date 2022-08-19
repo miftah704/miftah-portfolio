@@ -5,7 +5,8 @@ function ItemCardTool(props) {
 	const {
 		imageFeature,
 		imageWidth,
-		imageHeight
+		imageHeight,
+		bgVariant
 	} = props;
 	
 	return (
@@ -21,6 +22,7 @@ function ItemCardTool(props) {
 							width={imageWidth}
 							height={imageHeight}
 							alt="image-feature"
+							className={`${bgVariant?`${bgVariant}`:''}`}
 						/>
 
 					</div>
